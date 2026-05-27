@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.hero {
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+}
+
+.hero-content {
+    color: white;
+    margin: 50px auto 0 ;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    text-shadow: 5px 2px 5px rgba(0,0,0,0.43);
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, 0.527);
+    font-size: 18px;
+    display: inline-block;
+    padding: 1rem;
+    border-bottom: 2px solid white;
+
+}
