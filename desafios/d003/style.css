@@ -65,3 +65,45 @@ body {
     color: black;
     transition: .8s;
 }
+
+main {
+    width: 80%;
+    max-width: 860px;
+    margin: auto;
+}
+
+article {
+    background-color: white;
+    padding: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+article h2 {
+    background-color: rgba(187, 185, 185, 0.685);
+    text-indent: 1rem;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+.btn {
+    background-color: rgba(187, 185, 185, 0.685);
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+
+footer {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
